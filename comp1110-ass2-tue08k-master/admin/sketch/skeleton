@@ -1,0 +1,72 @@
+class BoardImage //we will merge it into class board
+{
+Peg peg1 = new Peg(Color.BlUE,1,1,0);//instantiate pegs
+
+public final Group boards = new Group();//help add 32 cirles to the board
+void initialboard();//initiate the original state of the board
+
+public void start(Stage primaryStage) throws Exception {} // it displays the board and add pegs and shapes
+ }
+
+
+
+class Pieces 
+{
+int columnofpos;
+int rowofpos;
+
+Piece(int col , int row){}//constructor
+void flipped(Shape s){}//flip the shape
+void rotate(Shape s){}//rotate the shape
+
+}
+
+class Pegs {}
+{
+int column;//column of each peg
+int row;//row of each peg
+Color color;//color of each peg
+int orientation = 0;// the orientation of each peg is 0
+
+public final Group controlpegs = new Group();
+public Peg(Color color,int row,int orientation)//constructor
+public int getcolumn(){};//return the column of each peg
+public int getrow(){};//return the row of each peg
+public Color getcolor();//return the color of each peg
+public void putPegToBoard(){}//put all the pegs to the board
+
+
+}
+
+
+
+class Shape {
+
+  Color color;
+  int loop;
+  char name;
+  public final Group controlshapes = new Group();//we need add new shapes to the board
+  public final Group controldeps = new Group();//we need add depressions of each shape to the board
+
+ public Shape (char name, Color color, int loop ) // constructor , each shape has name, color and loop
+ Color getcolor  () { }//return the color of each shape
+ char getname () {} // return the name of each shape
+ int getloop () {} // return the loop of each shape
+
+ public int [][] shapeArray () {} // return the original position of the shape
+ public int [][] deprsArray () {} // return the original depression position of each shape
+
+ public void checkshape (Peg[] p, int userplace_row, int userplace_colum) {}
+ // check if the shape conflicts the pegs,if conflicts, check if the color of them is the same
+ //if the same ,we need to go to the method  checkdeps(),if checkdeps()returns true,we will put this shape to the board
+ //if not the same , we will show an error message
+
+ public boolean checkdeps(Peg pl, int userplace_row, int userplace_colum) {}//if the depression contains pegs we will return true
+
+ public void putpiecetoboard(int user_row,int user_colum)//we need to put shapes to the board using offset given by user
+
+
+
+ }
+
+
