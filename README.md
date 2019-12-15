@@ -3,4 +3,4 @@ In this assignment you will exercise a number of major themes of the course, inc
 More project details please see the README.md in project package.
 
 #Basic Ideas and demo
-[ideas&demo.jpg](https://i.loli.net/2019/12/15/YGTUJoaQwOkzuDK.jpg)
+[Link](https://sm.ms/image/YGTUJoaQwOkzuDK)
