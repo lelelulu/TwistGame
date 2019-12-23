@@ -1,6 +1,11 @@
-# TwistGame
-In this assignment you will exercise a number of major themes of the course, including software design and implementation, using development tools such as Git and IntelliJ, using JavaFX to build a user interface.   Above all, this assignment will emphasize group work.
+## Code Instruction
+* Use Eclipse or IntelliJ IDEA to open 'comp1110-ass2-tue08k-master' document directly
+* Run code game.jar directly
+* Follow demo (https://sm.ms/image/YGTUJoaQwOkzuDK) to play this game.
 
 
-More project details please see the README.md in the project package.
+* More details please view: [Wiki](https://github.com/lelelulu/TwistGame/wiki)
+
+ 
+
 
