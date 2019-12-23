@@ -4,7 +4,7 @@
 * Follow demo (https://sm.ms/image/YGTUJoaQwOkzuDK) to play this game.
 
 
-* More details please view: [Wiki](https://github.com/lelelulu/TwistGame/wiki)
+* More project details please view: [Wiki](https://github.com/lelelulu/TwistGame/wiki)
 
  
 
